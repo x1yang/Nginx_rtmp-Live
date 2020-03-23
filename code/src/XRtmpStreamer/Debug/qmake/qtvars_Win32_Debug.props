@@ -1,0 +1,28 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+<Qt_DEFINES_>UNICODE;WIN32;QT_MULTIMEDIA_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_NETWORK_LIB;QT_CORE_LIB</Qt_DEFINES_>
+<Qt_INCLUDEPATH_>D:\computer_software\qt5.9\5.9\msvc2015\include;D:\computer_software\qt5.9\5.9\msvc2015\include\QtMultimedia;D:\computer_software\qt5.9\5.9\msvc2015\include\QtWidgets;D:\computer_software\qt5.9\5.9\msvc2015\include\QtGui;D:\computer_software\qt5.9\5.9\msvc2015\include\QtANGLE;D:\computer_software\qt5.9\5.9\msvc2015\include\QtNetwork;D:\computer_software\qt5.9\5.9\msvc2015\include\QtCore;D:\computer_software\qt5.9\5.9\msvc2015\mkspecs\win32-msvc</Qt_INCLUDEPATH_>
+<Qt_LIBS_>D:\computer_software\qt5.9\5.9\msvc2015\lib\qtmaind.lib;shell32.lib;D:\computer_software\qt5.9\5.9\msvc2015\lib\Qt5Multimediad.lib;D:\computer_software\qt5.9\5.9\msvc2015\lib\Qt5Widgetsd.lib;D:\computer_software\qt5.9\5.9\msvc2015\lib\Qt5Guid.lib;D:\computer_software\qt5.9\5.9\msvc2015\lib\Qt5Networkd.lib;D:\computer_software\qt5.9\5.9\msvc2015\lib\Qt5Cored.lib</Qt_LIBS_>
+<Qt_LIBPATH_>D:\computer_software\qt5.9\5.9\msvc2015\lib;C:\utils\my_sql\my_sql\lib;C:\utils\postgresql\pgsql\lib</Qt_LIBPATH_>
+<Qt_INCLUDEPATH_
+      >$(Qt_INCLUDEPATH_);Debug\moc;Debug\uic</Qt_INCLUDEPATH_>
+    <QtBkup_QtInstall
+      >msvc2015_32</QtBkup_QtInstall>
+    <QtBkup_QtModules
+      >core;gui;multimedia;widgets</QtBkup_QtModules>
+    <QtBkup_QtPathBinaries
+      >bin</QtBkup_QtPathBinaries>
+    <QtBkup_QtPathLibraryExecutables
+      >bin</QtBkup_QtPathLibraryExecutables>
+    <QtBkup_QtHeaderSearchPath
+      ></QtBkup_QtHeaderSearchPath>
+    <QtBkup_QtLibrarySearchPath
+      ></QtBkup_QtLibrarySearchPath>
+    <QtBkup_QtVars
+      >DEFINES=/-D(\w+)/$1/;INCLUDEPATH=INCPATH/-I(\x22[^\x22]+\x22|[^\s]+)/$1/;LIBS=/(?:\/LIBPATH:(?:\x22[^\x22]+\x22|[^\s]+))|(\x22[^\x22]+\x22|[^\s]+)/$1/;LIBPATH=LIBS/\/LIBPATH:(\x22[^\x22]+\x22|[^\s]+)/$1/</QtBkup_QtVars>
+    <QtBkup_QMakeCodeLines
+      ></QtBkup_QMakeCodeLines>
+    <QtBkup_QtBuildConfig
+      >debug</QtBkup_QtBuildConfig>
+  </PropertyGroup>
+</Project>
