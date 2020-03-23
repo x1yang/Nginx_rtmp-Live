@@ -1,0 +1,17 @@
+﻿生成启动时间为 2020/2/26 14:29:50。
+     1>项目“F:\zhibo_project\code\src\viewCam\viewCam.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         D:\computer_software\vs2013\VC\bin\CL.exe /c /I..\..\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "源.cpp"
+         源.cpp
+     1>f:\zhibo_project\code\include\opencv2\core\mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\zhibo_project\code\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\zhibo_project\code\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+       Link:
+         D:\computer_software\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\viewCam.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\bin\viewCam.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\viewCam.lib" /MACHINE:X86 "Debug\源.obj"
+         viewCam.vcxproj -> F:\zhibo_project\code\src\viewCam\..\..\bin\viewCam.exe
+     1>已完成生成项目“F:\zhibo_project\code\src\viewCam\viewCam.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.50

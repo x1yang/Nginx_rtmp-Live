@@ -1,0 +1,18 @@
+﻿生成启动时间为 2020/2/29 23:24:55。
+     1>项目“F:\zhibo_project\code\src\qt_audio_rtmp\qt_audio_rtmp.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>项目“F:\zhibo_project\code\src\qt_audio_rtmp\qt_audio_rtmp.vcxproj”(1)正在节点 2 上生成“F:\zhibo_project\code\src\qt_audio_rtmp\qt_audio_rtmp.vcxproj”(1:2) (Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         D:\computer_software\vs2015\VC\bin\CL.exe /c /I..\..\include /I. /ID:\computer_software\qt5.9\5.9\msvc2015\include /I.\GeneratedFiles\Debug /ID:\computer_software\qt5.9\5.9\msvc2015\include\QtCore /ID:\computer_software\qt5.9\5.9\msvc2015\include\QtMultimedia /Zi /nologo /W1 /WX- /MP /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_MULTIMEDIA_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>f:\zhibo_project\code\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+       Link:
+         D:\computer_software\vs2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\\qt_audio_rtmp.exe" /NOLOGO /LIBPATH:..\..\lib /LIBPATH:D:\computer_software\qt5.9\5.9\msvc2015\lib qtmaind.lib Qt5Cored.lib Qt5Multimediad.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"..\..\bin\qt_audio_rtmp.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\qt_audio_rtmp.lib" /MACHINE:X86 /SAFESEH:NO Debug\main.obj
+         qt_audio_rtmp.vcxproj -> F:\zhibo_project\code\src\qt_audio_rtmp\..\..\bin\qt_audio_rtmp.exe
+     1>已完成生成项目“F:\zhibo_project\code\src\qt_audio_rtmp\qt_audio_rtmp.vcxproj”(Build 个目标)的操作。
+     1>已完成生成项目“F:\zhibo_project\code\src\qt_audio_rtmp\qt_audio_rtmp.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:02.51

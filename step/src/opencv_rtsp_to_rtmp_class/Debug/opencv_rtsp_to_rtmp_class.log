@@ -1,0 +1,36 @@
+﻿生成启动时间为 2020/2/29 14:11:25。
+     1>项目“F:\zhibo_project\code\src\opencv_rtsp_to_rtmp_class\opencv_rtsp_to_rtmp_class.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (opencv_rtsp_to_rtmp.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         D:\computer_software\vs2015\VC\bin\CL.exe /c /I..\..\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt XMediaEncode.cpp XRtmp.cpp "源.cpp"
+         源.cpp
+     1>f:\zhibo_project\code\include\opencv2\core\mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\zhibo_project\code\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\zhibo_project\code\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\zhibo_project\code\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\zhibo_project\code\src\opencv_rtsp_to_rtmp_class\xrtmp.h(3): warning C4099: “AVCodecContext”: 类型名称以前使用“struct”现在使用的是“class”
+         f:\zhibo_project\code\src\opencv_rtsp_to_rtmp_class\xmediaencode.h(5): note: 参见“AVCodecContext”的声明
+     1>f:\zhibo_project\code\src\opencv_rtsp_to_rtmp_class\xrtmp.h(4): warning C4099: “AVPacket”: 类型名称以前使用“struct”现在使用的是“class”
+         f:\zhibo_project\code\src\opencv_rtsp_to_rtmp_class\xmediaencode.h(4): note: 参见“AVPacket”的声明
+     1>f:\zhibo_project\code\src\opencv_rtsp_to_rtmp_class\源.cpp(42): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>f:\zhibo_project\code\src\opencv_rtsp_to_rtmp_class\源.cpp(43): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+         XRtmp.cpp
+     1>f:\zhibo_project\code\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\zhibo_project\code\include\libavcodec\avcodec.h(1645): warning C4099: “AVPacket”: 类型名称以前使用“class”现在使用的是“struct”
+         f:\zhibo_project\code\include\libavcodec\avcodec.h(1645): note: 参见“AVPacket”的声明
+     1>f:\zhibo_project\code\include\libavcodec\avcodec.h(1743): warning C4099: “AVCodecContext”: 类型名称以前使用“class”现在使用的是“struct”
+         f:\zhibo_project\code\include\libavcodec\avcodec.h(1743): note: 参见“AVCodecContext”的声明
+         XMediaEncode.cpp
+     1>f:\zhibo_project\code\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         正在生成代码...
+       Link:
+         D:\computer_software\vs2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\opencv_rtsp_to_rtmp_class.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"..\..\bin\opencv_rtsp_to_rtmp_class.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\opencv_rtsp_to_rtmp_class.lib" /MACHINE:X86 Debug\XMediaEncode.obj
+         Debug\XRtmp.obj
+         "Debug\源.obj"
+         opencv_rtsp_to_rtmp_class.vcxproj -> F:\zhibo_project\code\src\opencv_rtsp_to_rtmp_class\..\..\bin\opencv_rtsp_to_rtmp_class.exe
+     1>已完成生成项目“F:\zhibo_project\code\src\opencv_rtsp_to_rtmp_class\opencv_rtsp_to_rtmp_class.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:05.99
